@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--•用两种不同的方式来实现一个三列布局，其中左侧和右侧的部分宽度固定，中间部分宽度随浏览器宽度的变化而自适应变化
+-->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	.zdiv{
+		background-color:red;
+		margin-top:10px;
+		margin-left:5px;
+	}
+	.DIV-A1 {
+     background-color:blue;
+     width:100px;
+     height:50px;
+     margin-left:10px;
+	}
+	.DIV-B1 {
+     background-color:blue;
+     height:50px;
+     margin-top:-50px;
+     margin-left:120px;
+     margin-right:120px; 
+	}
+	.DIV-C1 {
+     background-color:blue;
+     width:100px;
+     height:50px;
+     float:right;
+     margin-top:-50px;
+     margin-right:10px;
+	}
+	.DIV-A2 {
+	 clear:both;
+     background-color:blue;
+     width:100px;
+     height:50px;
+     margin-top:10px;
+     margin-left:10px;
+	}
+	.DIV-B2 {
+     background-color:blue;
+     height:50px;
+     margin-top:-50px;
+     margin-left:120px;
+     margin-right:120px; 
+	}
+	.DIV-C2 {
+     background-color:blue;
+     width:100px;
+     height:50px;
+     float:right;
+     margin-top:-50px;
+     margin-right:10px;
+	}
+	.DIV-A3{
+	 clear:both;
+     background-color:blue;
+     width:100px;
+     height:50px;
+     margin-top:10px;
+     margin-left:10px;
+	}
+	.DIV-B3 {
+     background-color:blue;
+     height:50px;
+     margin-top:-50px;
+     margin-left:120px;
+     margin-right:120px; 
+	}
+	.DIV-C3 {
+     background-color:blue;
+     width:100px;
+     height:50px;
+     float:right;
+     right:5px;
+     margin-top:-50px;
+     margin-right:10px;
+	}
+	</style>
+</head>
+<body>
+	<div class="zdiv">
+		<div class="DIV-A1"></div>
+		<div class="DIV-B1"></div>
+		<div class="DIV-C1"></div>
+		<div class="DIV-A2"></div>
+		<div class="DIV-B2"></div>
+		<div class="DIV-C2"></div>
+		<div class="DIV-A3"></div>
+		<div class="DIV-B3"></div>
+		<div class="DIV-C3"></div>
+	</div>
+</body>
+</html>

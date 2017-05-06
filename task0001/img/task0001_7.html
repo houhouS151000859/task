@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--•用两种不同的方法来实现一个两列布局，其中左侧部分宽度固定、右侧部分宽度随浏览器宽度的变化而自适应变化 -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	 #float-column { 
+      margin-top: 30px; 
+      } 
+     #div-a{ 
+      background-color: red; 
+      width: 50px; 
+      height: 30px; 
+      float: left;  } 
+     #div-b{ 
+      background-color: blue; 
+      height: 30px; 
+      width: 100%; } 
+     #div-c{ 
+      background-color: yellow; 
+      width: 100%; 
+      height: 30px; 
+      clear: both; } 
+	</style>
+</head>
+<body>
+	
+	<div id="float-column"> 
+     <div id="div-a">div-a</div> 
+     <div id="div-b">div-b</div> 
+     <div id="div-c">div-c</div> 
+     </div> 
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--•用两种不同的方式来实现一个三列布局，其中左侧和右侧的部分宽度固定，中间部分宽度随浏览器宽度的变化而自适应变化
+-->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	.zdiv{
+		background-color:red;
+		margin-top:5px;
+		overflow:hidden;
+	}
+	.DIV-A{
+		background-color:blue;
+		width:100px;
+		height:50px;
+		float:left;
+		position:relative;
+		left:10px;
+	}
+	.DIV-B1{
+		position:relative;
+		margin:0 120px 0 120px;
+	}
+	.DIV-B{
+		position:absolute;
+		background-color:black;
+		width:100%;
+		height:50px;
+	}
+	.DIV-C{
+		background-color:blue;
+		width:100px;
+		height:50px;
+		float:right;
+		position:relative;
+		margin-right:10px;
+	}
+    </style>
+</head>
+<body>
+	<div class="zdiv">
+		<div class="DIV-A"></div>
+		<div class="DIV-B1">
+		<div class="DIV-B"></div>
+	    </div>
+		<div class="DIV-C"></div>
+	</div>
+</body>
+</html>

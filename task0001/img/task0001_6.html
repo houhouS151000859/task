@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--•用两种不同的方法来实现一个两列布局，其中左侧部分宽度固定、右侧部分宽度随浏览器宽度的变化而自适应变化 -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	.zdiv{
+		margin-top:10px;
+	}
+	.div-A{
+      background-color:red;
+      height:40px;
+      width:200px;
+	}
+    .div-B{
+      background-color:blue;
+      height:40px;
+      width:100%;
+      position: absolute;
+      left:200px;
+      top:10px;
+	}
+	.div-C{
+      background-color:yellow;
+      height:40px;
+      width:100%;
+	}
+    </style>
+</head>
+<body>
+	<div class="zdiv">
+		<div class="div-A">DIV-A</div>
+		<div class="div-B">DIV-B</div>
+		<div class="div-C">DIV-C</div>
+	</div>
+</body>
+</html>
